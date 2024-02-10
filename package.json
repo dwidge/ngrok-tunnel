@@ -1,0 +1,13 @@
+{
+  "name": "@dwidge/ngrok-tunnel",
+  "version": "0.1.0",
+  "description": "Run command with ngrok url passed as env",
+  "license": "BSL-1.0",
+  "bin": {
+    "ngrok-tunnel": "./cli.js"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "*",
+    "cross-spawn": "^7.0.3"
+  }
+}
