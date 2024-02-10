@@ -45,7 +45,7 @@ if (!token) {
 const ngrok = makeNgrokListener(addr).then((ngrok) => {
   spawn(command, argv.slice(1), {
     stdio: "inherit",
-    env: { ...process.eventNames, NGROK_URL: ngrok.url },
+    env: { ...process.env, NGROK_URL: ngrok.url },
   }).on("exit", function (exitCode) {
     process.exit(exitCode);
   });
