@@ -2,12 +2,28 @@
   "name": "@dwidge/ngrok-tunnel",
   "version": "0.1.0",
   "description": "Run command with ngrok url passed as env",
+  "author": "DWJ",
   "license": "BSL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwidge/ngrok-tunnel.git"
+  },
+  "files": [
+    "cli.js",
+    "ngrok.js"
+  ],
   "bin": {
     "ngrok-tunnel": "./cli.js"
   },
   "dependencies": {
     "@ngrok/ngrok": "*",
     "cross-spawn": "^7.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@9.12.1",
+  "engines": {
+    "node": ">=20"
   }
 }
