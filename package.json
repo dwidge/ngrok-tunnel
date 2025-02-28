@@ -1,6 +1,6 @@
 {
   "name": "@dwidge/ngrok-tunnel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run command with ngrok url passed as env",
   "author": "DWJ",
   "license": "BSL-1.0",
