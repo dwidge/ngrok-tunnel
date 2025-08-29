@@ -16,7 +16,7 @@
     "ngrok-tunnel": "./cli.js"
   },
   "dependencies": {
-    "@ngrok/ngrok": "*",
+    "@ngrok/ngrok": "^1.0.0",
     "cross-spawn": "^7.0.3"
   },
   "publishConfig": {
